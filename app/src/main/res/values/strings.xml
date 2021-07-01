@@ -1,0 +1,57 @@
+<resources>
+    <!-- app name -->
+    <string name="app_name">MyLibrary</string>
+    <!-- sign up -->
+    <string name="welcome">Welcome!</string>
+    <string name="invitation">Create your account to get started. After that, you can share books and make friends.</string>
+    <string name="name_text_hint">Name</string>
+    <string name="email_text_hint">Email</string>
+    <string name="password_text_hint">Password</string>
+    <string name="repeat_password_text_hint">Repeat password</string>
+    <string name="redirect_to_sign_in"><u>Login</u></string>
+    <!-- sign in -->
+    <string name="sign_in">Sign In</string>
+    <string name="redirect_to_sign_up"><u>Create an account</u></string>
+    <!-- account -->
+    <string name="account_settings_title">Account Settings</string>
+    <string name="account_picture_text_hint">Profile picture</string>
+    <string name="username_text_hint">Username</string>
+    <string name="country_text_hint">Country</string>
+    <string name="age_text_hint">Age</string>
+    <string name="log_out"><u>Log out</u></string>
+    <string name="data_saved">Data saved</string>
+    <string name="user_books">User books</string>
+    <!-- bottom navigation view -->
+    <string name="timeline">Timeline</string>
+    <string name="my_books">My books</string>
+    <string name="reviews">Reviews</string>
+    <string name="notifications">Notifications</string>
+    <!-- book list -->
+    <string name="book_list_title">My Book List</string>
+    <string name="book_list_edit_text_hint">Search book</string>
+    <string name="book_description_title">Book description</string>
+    <string name="add_book_review_title">Add Book Review</string>
+    <string name="add_book_rating_title">Tap to add rating</string>
+    <string name="book_list_default">You have no books as of yet. Just add your first book to get started.</string>
+    <string name="count_reviews">%d reviwes</string>
+    <!-- review list -->
+    <string name="review_list_title">Reviews</string>
+    <string name="review_title">Review</string>
+    <!-- create review -->
+    <string name="review_saved">Review saved</string>
+    <!-- buttons -->
+    <string name="btn_next">Next</string>
+    <string name="btn_sign_up">Sign up</string>
+    <string name="btn_sign_in">Sign in</string>
+    <string name="btn_save_settings">Save settings</string>
+    <string name="btn_add_review">Add review</string>
+    <string name="btn_user_reviews">User reviews</string>
+    <string name="btn_save_changes">Save changes</string>
+    <!-- timeline -->
+    <string name="start_date_text_hint">Start date of reading</string>
+    <string name="end_date_text_hint">End date of reading</string>
+    <string name="book_status">Status: %s</string>
+    <!-- notifications -->
+    <string name="notifications_title">Notifications</string>
+    <string name="notifications_default">You have no notifications.</string>
+</resources>

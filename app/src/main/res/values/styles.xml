@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="big_title">
+        <item name="android:textSize">@dimen/text_size_32</item>
+        <item name="fontFamily">@font/open_sans</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/east_bay</item>
+    </style>
+
+    <style name="title">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_size_19</item>
+        <item name="fontFamily">@font/open_sans</item>
+    </style>
+
+    <style name="edit_text_hint">
+        <item name="fontFamily">@font/open_sans</item>
+        <item name="android:textSize">@dimen/text_size_14</item>
+        <item name="android:textColor">@color/east_bay_65</item>
+        <item name="android:textColorHint">@color/east_bay_65</item>
+    </style>
+
+    <style name="bottom_navigation_text">
+        <item name="fontFamily">@font/open_sans</item>
+        <item name="android:textSize">@dimen/text_size_10</item>
+    </style>
+
+    <style name="default_text">
+        <item name="android:textColor">@color/east_bay_80</item>
+        <item name="android:textSize">@dimen/text_size_14</item>
+        <item name="fontFamily">@font/open_sans</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="confirm_button">
+        <item name="fontFamily">@font/open_sans</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:letterSpacing">0.2</item>
+        <item name="android:textSize">@dimen/text_size_14</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/confirm_button</item>
+    </style>
+
+    <style name="sign_up_input_label">
+        <item name="fontFamily">@font/open_sans</item>
+        <item name="android:textSize">@dimen/text_size_12</item>
+        <item name="android:textColor">@color/deep_blue_30</item>
+        <item name="android:textStyle">bold</item>
+        <item name="textAllCaps">true</item>
+    </style>
+
+    <!-- account_fragment -->
+
+    <style name="account_input_label">
+        <item name="fontFamily">@font/open_sans</item>
+        <item name="android:textSize">@dimen/text_size_12</item>
+        <item name="android:textColor">@color/east_bay_80</item>
+        <item name="android:textStyle">bold</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:letterSpacing">0.1</item>
+    </style>
+
+    <!-- booklist_fragment -->
+
+    <style name="book_title">
+        <item name="android:textSize">@dimen/text_size_16</item>
+        <item name="fontFamily">@font/open_sans</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/east_bay</item>
+    </style>
+
+    <style name="book_author">
+        <item name="android:textSize">@dimen/text_size_14</item>
+        <item name="fontFamily">@font/open_sans</item>
+        <item name="android:textColor">@color/east_bay_80</item>
+    </style>
+
+    <!-- book_details_fragment -->
+
+    <style name="book_title_details">
+        <item name="android:textSize">@dimen/text_size_19</item>
+        <item name="fontFamily">@font/open_sans</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/east_bay</item>
+    </style>
+
+    <style name="book_author_details">
+        <item name="android:textSize">@dimen/text_size_14</item>
+        <item name="fontFamily">@font/open_sans</item>
+        <item name="android:textColor">@color/east_bay_80</item>
+    </style>
+
+    <style name="book_rating_details">
+        <item name="android:textSize">@dimen/text_size_12</item>
+        <item name="fontFamily">@font/open_sans</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/east_bay</item>
+    </style>
+
+    <style name="book_reviews_details">
+        <item name="android:textSize">@dimen/text_size_12</item>
+        <item name="fontFamily">@font/open_sans</item>
+        <item name="android:textColor">@color/east_bay_80</item>
+    </style>
+
+    <style name="book_description_details">
+        <item name="android:textSize">@dimen/text_size_14</item>
+        <item name="fontFamily">@font/open_sans</item>
+        <item name="android:textColor">@color/east_bay_80</item>
+    </style>
+
+    <style name="book_ratingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/yellow</item>
+        <item name="colorControlActivated">@color/green_dark</item>
+    </style>
+
+    <style name="add_rating_title">
+        <item name="android:textSize">@dimen/text_size_12</item>
+        <item name="fontFamily">@font/open_sans</item>
+        <item name="android:textColor">@color/east_bay_80</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <!-- review_fragment -->
+
+    <style name="review_text">
+        <item name="android:textColor">@color/east_bay_80</item>
+        <item name="android:textSize">@dimen/text_size_12</item>
+        <item name="fontFamily">@font/open_sans</item>
+    </style>
+
+    <style name="user_name">
+        <item name="android:textSize">@dimen/text_size_14</item>
+        <item name="fontFamily">@font/open_sans</item>
+        <item name="android:textColor">@color/east_bay</item>
+    </style>
+
+</resources>

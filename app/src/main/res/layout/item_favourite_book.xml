@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/item_book_height"
+    android:layout_marginTop="@dimen/margin_10"
+    android:background="@drawable/round_rectangle_shape">
+
+    <ImageView
+        android:id="@+id/book_cover"
+        android:layout_width="100dp"
+        android:layout_height="130dp"
+        android:layout_margin="@dimen/margin_10"
+        android:src="@drawable/image_not_found"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/book_title"
+        style="@style/book_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_10"
+        android:layout_marginEnd="@dimen/margin_10"
+        android:layout_marginBottom="@dimen/margin_10"
+        android:ellipsize="end"
+        android:maxLines="2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/book_cover"
+        app:layout_constraintTop_toTopOf="@id/book_cover"
+        tools:text="Book title" />
+
+    <TextView
+        android:id="@+id/book_author"
+        style="@style/book_author"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_10"
+        android:layout_marginEnd="@dimen/margin_10"
+        android:layout_marginBottom="@dimen/margin_10"
+        app:layout_goneMarginEnd="@dimen/margin_10"
+        android:ellipsize="end"
+        android:maxLines="2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/book_cover"
+        app:layout_constraintTop_toBottomOf="@id/book_title"
+        tools:text="Authors" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

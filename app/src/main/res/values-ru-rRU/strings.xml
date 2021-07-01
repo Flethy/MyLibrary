@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Моя библиотека</string>
+    <string name="book_list_title">Мой список книг</string>
+    <string name="book_list_edit_text_hint">Искать книгу</string>
+    <string name="timeline">График</string>
+    <string name="my_books">Мои книги</string>
+    <string name="notifications">Уведомления</string>
+    <string name="book_list_default">У вас пока нет книг. Просто добавьте первую книгу, чтобы начать.</string>
+    <string name="add_book_review_title">Добавить рецензию на книгу</string>
+    <string name="add_book_rating_title">Нажмите, чтобы установить рейтинг</string>
+    <string name="count_reviews">Рецензии: %d</string>
+    <string name="btn_next">Дальше</string>
+    <string name="invitation">Создайте учетную запись, чтобы начать. После этого вы можете делиться книгами и заводить друзей.</string>
+    <string name="welcome">Добро пожаловать!</string>
+    <string name="email_text_hint">Email</string>
+    <string name="password_text_hint">Пароль</string>
+    <string name="repeat_password_text_hint">Повторите пароль</string>
+    <string name="btn_sign_up">Зарегистрироваться</string>
+    <string name="redirect_to_sign_in"><u>Войти</u></string>
+    <string name="sign_in">Вход</string>
+    <string name="btn_sign_in">Войти</string>
+    <string name="redirect_to_sign_up"><u>Создать аккаунт</u></string>
+    <string name="name_text_hint">Имя</string>
+    <string name="account_settings_title">Настройки аккаунта</string>
+    <string name="account_picture_text_hint">Изображение профиля</string>
+    <string name="username_text_hint">Никнейм пользователя</string>
+    <string name="country_text_hint">Страна</string>
+    <string name="age_text_hint">Возраст</string>
+    <string name="btn_save_settings">Сохранить настройки</string>
+    <string name="log_out"><u>Выйти</u></string>
+    <string name="data_saved">Данные сохранены</string>
+    <string name="book_description_title">Описание книги</string>
+    <string name="btn_add_review">Добавить рецензию</string>
+    <string name="review_list_title">Рецензии</string>
+    <string name="reviews">Рецензии</string>
+    <string name="review_saved">Рецензия сохранена</string>
+    <string name="review_title">Рецензия</string>
+    <string name="btn_user_reviews">Рецензии пользователя</string>
+    <string name="user_books">Книги пользователя</string>
+    <string name="start_date_text_hint">Дата начала чтения</string>
+    <string name="end_date_text_hint">Дата окончания чтения</string>
+    <string name="btn_save_changes">Сохранить изменения</string>
+    <string name="book_status">Статус: %s</string>
+    <string name="notifications_default">У вас нет уведомлений.</string>
+    <string name="notifications_title">Уведомления</string>
+</resources>

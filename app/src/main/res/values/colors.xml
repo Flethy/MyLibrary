@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="titan_white">#EEECFF</color>
+    <color name="east_bay">#384F7D</color>
+    <color name="east_bay_80">#CC384F7D</color>
+    <color name="east_bay_65">#A6384F7D</color>
+    <color name="east_bay_45">#73384F7D</color>
+
+    <color name="deep_blue">#445984</color>
+    <color name="deep_blue_30">#48445984</color>
+    <color name="deep_blue_60">#99445984</color>
+
+    <color name="grey_30">#48445984</color>
+
+    <color name="yellow">#FFD381</color>
+    <color name="green_light">#BAFB67</color>
+    <color name="green_dark">#00D23A</color>
+</resources>

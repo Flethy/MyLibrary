@@ -1,0 +1,92 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-parcelize'
+}
+apply plugin: 'kotlin-kapt'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.2"
+
+    defaultConfig {
+        applicationId "com.flethy.mylibrary"
+        minSdkVersion 21
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            buildConfigField "String", "BASE_URL", "\"https://www.googleapis.com/books/\""
+            buildConfigField "String", "BASE_IMAGE_URL", "\"https://image.tmdb.org/t/p/w300\""
+            buildConfigField "String", "API_KEY", "\"AIzaSyAmMs3votHVToxYox_8OEyc6WAzD8aG8_U\""
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+dependencies {
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation 'androidx.core:core-ktx:1.5.0'
+    implementation 'androidx.appcompat:appcompat:1.3.0'
+    implementation 'com.google.android.material:material:1.3.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'androidx.room:room-runtime:2.3.0'
+    implementation 'com.google.firebase:firebase-database:20.0.0'
+    implementation 'com.google.firebase:firebase-firestore-ktx:23.0.0'
+    implementation 'com.google.firebase:firebase-auth:21.0.1'
+    implementation 'com.google.firebase:firebase-firestore:23.0.0'
+    implementation 'com.google.firebase:firebase-storage-ktx:20.0.0'
+    implementation 'com.google.firebase:firebase-storage:20.0.0'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+    //Coil
+    implementation 'io.coil-kt:coil:1.2.1'
+    //RecyclerView
+    implementation 'androidx.recyclerview:recyclerview:1.2.0'
+    //Retrofit and gson
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.7.2'
+    implementation 'com.google.code.gson:gson:2.8.6'
+    //Coroutines
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.3'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.3'
+    //ViewModel and livedata
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.3.1"
+    implementation "androidx.lifecycle:lifecycle-extensions:2.2.0"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1"
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.3.1"
+
+    kapt "android.arch.persistence.room:compiler:1.1.1"
+    implementation 'androidx.room:room-ktx:2.3.0'
+    kapt "androidx.room:room-compiler:2.3.0"
+
+    // Import the BoM for the Firebase platform
+    implementation platform('com.google.firebase:firebase-bom:28.0.1')
+    // Declare the dependency for the Realtime Database library
+    implementation 'com.google.firebase:firebase-analytics-ktx'
+    implementation 'com.firebaseui:firebase-ui-database:6.0.2'
+
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.4.1'
+
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+}

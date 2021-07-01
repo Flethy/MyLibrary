@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_3">3dp</dimen>
+    <dimen name="margin_7">7dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="margin_15">15dp</dimen>
+    <dimen name="margin_20">20dp</dimen>
+    <dimen name="margin_25">25dp</dimen>
+    <dimen name="margin_32">32dp</dimen>
+    <dimen name="margin_40">40dp</dimen>
+    <dimen name="margin_54">54dp</dimen>
+    <dimen name="margin_60">60dp</dimen>
+
+    <dimen name="size_48">48dp</dimen>
+    <dimen name="size_56">56dp</dimen>
+    <dimen name="size_62">62dp</dimen>
+    <dimen name="size_100">100dp</dimen>
+
+    <dimen name="text_size_10">10dp</dimen>
+    <dimen name="text_size_12">12dp</dimen>
+    <dimen name="text_size_14">14dp</dimen>
+    <dimen name="text_size_16">16dp</dimen>
+    <dimen name="text_size_19">19dp</dimen>
+    <dimen name="text_size_32">32dp</dimen>
+
+    <dimen name="item_book_height">150dp</dimen>
+</resources>

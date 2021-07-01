@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/timeline"
+        android:icon="@drawable/ic_home"
+        android:title="@string/timeline" />
+    <item
+        android:id="@+id/my_books"
+        android:icon="@drawable/ic_book_open"
+        android:title="@string/my_books" />
+    <item
+        android:id="@+id/add_review"
+        android:icon="@drawable/ic_add_like"
+        android:title="@string/reviews" />
+    <item
+        android:id="@+id/notifications"
+        android:icon="@drawable/ic_bell"
+        android:title="@string/notifications" />
+</menu>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "239771844858",
+    "firebase_url": "https://mylibrary-4d2fb-default-rtdb.firebaseio.com",
+    "project_id": "mylibrary-4d2fb",
+    "storage_bucket": "mylibrary-4d2fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239771844858:android:4a72c0934b60255a8a8943",
+        "android_client_info": {
+          "package_name": "com.flethy.mylibrary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "239771844858-mg3jooh4b7md970196vr0hb376c64vth.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1yc3v8dFdbFtIoF_3jJiCk4JjIv8AFQE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "239771844858-mg3jooh4b7md970196vr0hb376c64vth.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
